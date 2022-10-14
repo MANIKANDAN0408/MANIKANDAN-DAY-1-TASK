@@ -1,0 +1,43 @@
+# Write a Blog on Difference between HTTP1.1 vs HTTP2
+
+* HTTP1.1 :
+
+A. It usually works on the textual format
+B. It usually request resources inlining for use getting multiple 
+C. There is head of line blocking that blocks all the request behind it untill it doesn't get its all resources
+D. It compresses data by itself
+E. The first usable version of HTTP was created in 1997 and it went through several stages of development
+F. HTTP 1.1 delivers faster delivery of web pages and it reduces web traffic
+G. Developed by Timothy Berners-Lee in 1989 as a communication standard for the World Wide Web
+
+
+*HTTP 2 :
+
+A. It works on binary framing layer insted of textual 
+B. It uses PUSH frame by server that collects all multiple pages
+C. It allows multiplexing, so one TCP connection is required for multiple request
+D. It uses HPACK for data compression 
+E. HTTP2 was developed over the SPDY protocol  
+F. HTTP2 improves both site performance and server efficiency
+
+
+
+# Write a blog about objects and its internal representation in javascript 
+
+A. Objects in javascript is the mopst important data-type and forms the building blocks for modern javascript
+B. Objects are more complex and each object may contain any combination of the primitive data types
+C. Objects in Javascript may be defined as an unordered collection of related data of reference type in form of "key:value" pairs 
+D. A Javascript object is a collection of nemed values having state and behaviour. eg.person, car, per
+E. A simple diagram is probably the best way to give a quick overview of the object representation in Javascript
+F. Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+   An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where a key is a string (also called a “property name”), and value can be anything.
+
+   To understand this rather abstract definition, let us look at an example of a JavaScript Object :
+
+   let school = {
+   name : “Vivekananda School”,
+   location : “Delhi”,
+   established : “1971”
+   }
+   In the above example “name”, “location”, “established” are all “keys” and “Vivekananda School”, “Delhi” and 1971 are values of these keys respectively.
+
